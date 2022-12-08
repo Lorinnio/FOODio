@@ -24,7 +24,7 @@
 
 *Czcionka: Rubik - Google Fonts*
 ## 6️⃣    Logo marki
-![logo FOODio](https://i.postimg.cc/WbWJ6XzP/FOODio-logo.png)
+![logo FOODio](https://i.postimg.cc/0NYxLH4D/logo.png)
 ## 7️⃣ Stwórzcie slogan reklamowy (hasło) jakie będzie towarzyszyć Twojej marce
 >*Zdrowy i pyszny posiłek pod Twoimi drzwiami, każdego dnia!*
 
