@@ -55,7 +55,7 @@
   padding: 4.8rem 0 9.6rem 0;
 }
 .hero {
-  max-width: 130rem;
+  max-width: 120rem;
   display: grid;
   padding: 0 3.2rem;
   grid-template-columns: 1fr 1fr;
@@ -143,7 +143,7 @@
 /* ******************************* */
 
 .section-how {
-  padding: 9.6rem 0;
+  padding: 10rem 0;
 }
 .step-number {
   font-size: 8.6rem;
@@ -203,7 +203,13 @@
   box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
   border-radius: 11px;
   overflow: hidden;
+  transition: all 0.4s;
 }
+.meal:hover {
+  transform: translateY(-1.2rem);
+  box-shadow: 0 3.2rem 6.4 rgba(0, 0, 0, 0.06);
+}
+
 .meal-content {
   padding: 3.2rem 4.8rem 4.8rem 4.8rem;
 }
@@ -255,4 +261,84 @@
 
 .meal-img {
   width: 100%;
+}
+.all-recipes {
+  text-align: center;
+  font-size: 1.8rem;
+}
+
+/* ******************************* */
+/* Sekcja Pricing */
+/* ******************************* */
+
+.section-pricing {
+  padding: 9.6rem 0;
+}
+.pricing-plan {
+  background-color: #f9fdfa;
+  border-radius: 11px;
+  width: 75%;
+}
+.pricing-plan--starter {
+  justify-self: end;
+  padding: 4.6rem;
+  border: 2px solid #e4f5e8;
+}
+.pricing-plan--full {
+  background-color: #e4f5e8;
+  padding: 4.8rem;
+  position: relative;
+  overflow: hidden;
+}
+.pricing-plan--full::after {
+  content: "bestseller";
+  position: absolute;
+  top: 6%;
+  right: -18%;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #333;
+  background-color: #ffd43b;
+  padding: 0.8rem 8rem;
+  transform: rotate(45deg);
+}
+
+.plan-header {
+  text-align: center;
+  margin-bottom: 4.8rem;
+}
+
+.plan-name {
+  color: #3d8745;
+  font-weight: 600;
+  font-size: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.75;
+  margin-bottom: 3.2rem;
+}
+.plan-price {
+  font-size: 6.2rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 1.6rem;
+}
+.plan-price span {
+  font-size: 3rem;
+  font-weight: 500;
+  margin-right: 0.8rem;
+}
+.plan-text {
+  font-size: 1.6rem;
+  line-height: 1.6rem;
+  color: #6f6f6f;
+}
+.plan-zacznij {
+  text-align: center;
+  margin-top: 4.8rem;
+}
+.plan-details {
+  font-size: 1.6rem;
+  line-height: 1.6;
+  text-align: center;
 }
