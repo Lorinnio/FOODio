@@ -1,6 +1,6 @@
 # 📚 zadanie na PICK 
 ## 1️⃣    Wymyślcie co będzie waszym innowacyjnym produktem
-*Jesteśmy przede wszystkim firmą technologiczną, ale z głównym naciskiem na dobre samopoczucie konsumentów poprzez zdrową dietę. Większość ludzi jest bardzo zajęta pracą, rodziną i przyjaciółmi oraz innymi ważnymi czynnościami, co nie pozostawia wiele czasu na gotowanie. Może to prowadzić do złej diety i trwałych konsekwencji zdrowotnych. Chcemy rozwiązać ten problem, stosując podejście AI-centryczne. Użytkownicy mogą korzystać z naszej aplikacji, aby wybrać swoją dietę i pokarmy, które lubią i nie lubią, a nasz algorytm AI stworzy niestandardowy i indywidualny tygodniowy plan posiłków. Ale nie poprzestajemy na tym. Współpracujemy z restauracjami i innymi partnerami kulinarnymi, aby faktycznie ugotować i dostarczyć wszystkie posiłki z wygenerowanych planów posiłków, w wybranych miastach. Wszystko to zostanie zapakowane w miesięczny abonament, w którym użytkownicy mogą wybrać między otrzymywaniem jednego lub dwóch posiłków dziennie, każdego dnia miesiąca.*
+*Aplikacja i usługa gotowania oraz dostarczania posiłków zgodnie z indywidualnymi planami dietetycznymi wygenerowanymi przy pomocy algorytmu sztucznej inteligencji, dostępne w ramach miesięcznego abonamentu z opcją jednego lub dwóch posiłków dziennie.*
 
 ## 2️⃣ Sprawdźcie jaka jest wasza konkurencja i odnotujcie jakie są ich strony www
 [Diet Planner](https://dietplannerapp.com/pl/)
