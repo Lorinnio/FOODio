@@ -7,6 +7,7 @@
   background-color: #f9fdfa;
   height: 9.6rem;
   padding: 0 4.8rem;
+  position: relative;
 }
 
 .logo {
@@ -18,7 +19,7 @@
   list-style: none;
   display: flex;
   align-items: center;
-  gap: 3.2rem;
+  gap: 4.8rem;
 }
 .main-nav-link:link,
 .main-nav-link:visited {
@@ -46,6 +47,22 @@
   background-color: #3d8745;
 }
 
+/* MOBILE NAV */
+.btn-mobile-nav {
+  border: none;
+  background: none;
+  cursor: pointer;
+  display: none;
+}
+.icon-mobile-nav {
+  height: 4.8rem;
+  width: 4.8rem;
+  color: #333;
+}
+.icon-mobile-nav[name="close-outline"] {
+  display: none;
+}
+
 /* ******************************* */
 /* Hero section */
 /* ******************************* */
@@ -54,6 +71,7 @@
   background-color: #f9fdfa;
   padding: 4.8rem 0 9.6rem 0;
 }
+
 .hero {
   max-width: 120rem;
   display: grid;
@@ -65,7 +83,7 @@
 }
 
 .heading-primary {
-  font-size: 5.2rem;
+  font-size: 4.4rem;
   font-weight: 700;
   line-height: 1.05;
   color: #333;
@@ -375,7 +393,7 @@
 }
 
 .cta-img-box {
-  background-image: url(..//img/eating.jpg);
+  background-image: url(..//img/shutterstock_766093175.png);
   background-size: cover;
   background-position: center;
 }
@@ -402,7 +420,7 @@
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
 }
 /* ******************************* */
-/* Sekcja CTA */
+/* Sekcja Footer */
 /* ******************************* */
 
 .footer {
