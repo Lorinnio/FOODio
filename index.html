@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="/css/general.css" />
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/queries.css" />
+    <script defer src="js/script.js"></script>
     <script
       type="module"
       src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"
@@ -32,11 +33,10 @@
       </a>
       <nav class="main-nav">
         <ul class="main-nav-list">
-          <li><a class="main-nav-link" href="#">Jak to działa</a></li>
-          <li><a class="main-nav-link" href="#">Dania</a></li>
-          <li><a class="main-nav-link" href="#">Referencje</a></li>
-          <li><a class="main-nav-link" href="#">Cennik</a></li>
-          <li><a class="main-nav-link nav-cta" href="#">Spróbuj</a></li>
+          <li><a class="main-nav-link" href="#how">Jak to działa</a></li>
+          <li><a class="main-nav-link" href="#meals">Dania</a></li>
+          <li><a class="main-nav-link" href="#pricing">Cennik</a></li>
+          <li><a class="main-nav-link nav-cta" href="#cta">Spróbuj</a></li>
         </ul>
       </nav>
       <button class="btn-mobile-nav">
@@ -57,10 +57,10 @@
               zdrowego odżywiania. Dostosowana do Twoich indywidualnych
               preferencji i zapotrzebowania na jedzenie.
             </p>
-            <a href="#" class="btn btn--full margin-right-sm"
+            <a href="#cta" class="btn btn--full margin-right-sm"
               >Zacznij jeść zdrowo</a
             >
-            <a href="#" class="btn btn--outline">Więcej &darr;</a>
+            <a href="#how" class="btn btn--outline">Więcej &darr;</a>
             <div class="delivered-meals">
               <div class="delivered-imgs">
                 <img src="/img/customers/customer-1.png" alt="Customer photo" />
@@ -108,7 +108,7 @@
         </div>
       </section>
 
-      <section class="section-how">
+      <section class="section-how" id="how">
         <div class="container">
           <span class="subheading">JAK TO DZIAŁA</span>
           <h2 class="heading-secondary">Jedz zdrowo w tylko 3 krokach</h2>
@@ -172,7 +172,7 @@
           </div>
         </div>
       </section>
-      <section class="section-meals">
+      <section class="section-meals" id="meals">
         <div class="container center-text">
           <span class="subheading">dania</span>
           <h2 class="heading-secondary">
@@ -278,7 +278,7 @@
           <a href="" class="link">Zobacz wszystkie przepisy &rarr;</a>
         </div>
       </section>
-      <section class="section-pricing">
+      <section class="section-pricing" id="pricing">
         <div class="container">
           <span class="subheading">cennik</span>
           <h2 class="heading-secondary">Dobre jedzenie bez rozbijania banku</h2>
@@ -347,7 +347,7 @@
           </aside>
         </div>
       </section>
-      <section class="section-cta">
+      <section class="section-cta" id="cta">
         <div class="container">
           <div class="cta">
             <div class="cta-text-box">
@@ -402,7 +402,7 @@
             </li>
           </ul>
 
-          <p class="copyright">2023 &copy; Foodio</p>
+          <p class="copyright"><span class="year">2023</span> &copy; Foodio</p>
         </div>
         <div class="address-col">
           <p class="footer-heading">Kontakt</p>
