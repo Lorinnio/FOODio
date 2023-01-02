@@ -15,6 +15,12 @@
 }
 /* ******************************* */
 /* Navigation */
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999999999999999;
+}
 .main-nav-list {
   list-style: none;
   display: flex;
@@ -69,7 +75,7 @@
 
 .section-hero {
   background-color: #f9fdfa;
-  padding: 4.8rem 0 9.6rem 0;
+  padding: 14.4rem 0 9.6rem 0;
 }
 
 .hero {
