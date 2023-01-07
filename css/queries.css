@@ -27,6 +27,9 @@
   .hero {
     gap: 4.8rem;
   }
+  .footer-nav {
+    gap: 3.5rem;
+  }
 }
 /* ******************************* */
 /* Ponizej 1024 px */
