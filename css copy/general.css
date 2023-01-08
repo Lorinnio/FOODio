@@ -13,7 +13,7 @@
 html {
   /* font-size: 10px; */
   /* 10px/16px */
-  font-size: 62.5%;
+  font-size: 50%;
   /* respect user font size setting */
   overflow-x: hidden;
   scroll-behavior: smooth;
@@ -36,8 +36,8 @@ body {
 }
 .grid {
   display: grid;
-  column-gap: 6.4rem;
-  row-gap: 9.6rem;
+  row-gap: 4.8rem;
+  column-gap: 4.8rem;
 }
 
 .grid:not(:last-child) {
@@ -45,10 +45,10 @@ body {
 }
 
 .grid--2-cols {
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 1fr;
 }
 .grid--3-cols {
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: 1fr;
 }
 .grid--4-cols {
   grid-template-columns: repeat(4, 1fr);
@@ -76,12 +76,12 @@ body {
   margin-bottom: 3.2rem;
 }
 .heading-secondary {
-  font-size: 4.4rem;
+  font-size: 3.6rem;
   line-height: 1.2;
   margin-bottom: 9.6rem;
 }
 .heading-tertiary {
-  font-size: 3rem;
+  font-size: 2.4rem;
   line-height: 1.2;
   margin-bottom: 3.2rem;
 }
@@ -99,7 +99,8 @@ body {
 .btn:visited {
   display: inline-block;
   font-size: 2rem;
-  padding: 1.6rem 3.2rem;
+  padding: 2.4rem 1.6rem;
+
   border-radius: 9px;
   text-decoration: none;
   transition: all 0.3s;

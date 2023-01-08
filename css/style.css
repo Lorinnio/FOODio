@@ -1,5 +1,4 @@
-/* ******************************* */
-/* Header */
+/* HEADER */
 .header {
   display: flex;
   justify-content: space-between;
@@ -13,8 +12,8 @@
 .logo {
   height: 3rem;
 }
-/* ******************************* */
-/* Navigation */
+
+/* NAV */
 .header {
   position: fixed;
   top: 0;
@@ -47,7 +46,6 @@
   color: #fff;
   border-radius: 9px;
 }
-
 .main-nav-link.nav-cta:hover,
 .main-nav-link.nav-cta:active {
   background-color: #3d8745;
@@ -69,10 +67,7 @@
   display: none;
 }
 
-/* ******************************* */
-/* Hero section */
-/* ******************************* */
-
+/* HERO */
 .section-hero {
   background-color: #f9fdfa;
   padding: 14.4rem 0 9.6rem 0;
@@ -134,9 +129,8 @@
   color: #3d8745;
   font-weight: 700;
 }
-/* ******************************* */
-/* Zaufali */
-/* ******************************* */
+
+/* FEATURED */
 .section-featured {
   padding: 4.8rem 0 3.2rem 0;
 }
@@ -162,10 +156,7 @@
   opacity: 0.5;
 }
 
-/* ******************************* */
-/* Sekcja jak */
-/* ******************************* */
-
+/* HOW */
 .section-how {
   padding: 10rem 0;
 }
@@ -216,10 +207,7 @@
   width: 35%;
 }
 
-/* ******************************* */
-/* Sekcja Dania */
-/* ******************************* */
-
+/* MEALS */
 .section-meals {
   padding: 9.6rem 0;
 }
@@ -291,10 +279,7 @@
   font-size: 1.8rem;
 }
 
-/* ******************************* */
-/* Sekcja Pricing */
-/* ******************************* */
-
+/* PRICING */
 .section-pricing {
   padding: 9.6rem 0;
 }
@@ -366,10 +351,7 @@
   line-height: 1.6;
   text-align: center;
 }
-/* ******************************* */
-/* Sekcja CTA */
-/* ******************************* */
-
+/* CTA */
 .section-cta {
   padding: 4.8rem 0 12.8rem;
 }
@@ -425,10 +407,8 @@
   border-radius: 9px;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
 }
-/* ******************************* */
-/* Sekcja Footer */
-/* ******************************* */
 
+/* FOOTER */
 .footer {
   padding: 12.8rem 0;
   border-top: 1px solid #eee;
