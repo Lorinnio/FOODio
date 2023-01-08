@@ -41,3 +41,7 @@ _Czcionka: Rubik - Google Fonts_
 ## 8️⃣ Design
 
 [link do figmy](https://www.figma.com/file/p7OP83BYRStOEvmGLKGTlr/FOODio---pick?node-id=0%3A1&t=CxCKESW18kto4UkL-1)
+
+## 9️⃣ Deploy
+
+![link do strony](https://foodio-pick.netlify.app/)
