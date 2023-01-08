@@ -44,4 +44,4 @@ _Czcionka: Rubik - Google Fonts_
 
 ## 9️⃣ Deploy
 
-![link do strony](https://foodio-pick.netlify.app/)
+[link do strony](https://foodio-pick.netlify.app/)
