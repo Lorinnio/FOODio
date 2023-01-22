@@ -96,9 +96,7 @@
   transform: translateX(0);
 }
 .main-nav {
-  background-color: rgba(255, 255, 255, 0.6);
-  backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px);
+  background-color: rgba(255, 255, 255, 0.98);
   position: absolute;
   top: 0;
   left: 0;
@@ -113,6 +111,12 @@
   opacity: 1;
   pointer-events: none;
   visibility: hidden;
+}
+@supports (backdrop-filter: blur(20px)) {
+  .main-nav {
+    background-color: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(20px);
+  }
 }
 
 /* HERO */
