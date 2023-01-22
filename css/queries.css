@@ -102,12 +102,16 @@
 
   .main-nav-list {
     gap: 3.2rem;
+    background-color: #f9fdfa;
   }
   .hero {
     gap: 4.8rem;
   }
   .logos img {
     height: 3.2rem;
+  }
+  .logos {
+    flex-direction: row;
   }
   .cta {
     grid-template-columns: 2fr 1fr;
