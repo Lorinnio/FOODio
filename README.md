@@ -1,5 +1,9 @@
 # 📚 zadanie na PICK
 
+<h1 align="center">
+   <img src="https://ik.imagekit.io/lorinnio/FOODio.png?updatedAt=1678815805612">
+</h1>
+
 ## 1️⃣ Wymyślcie co będzie waszym innowacyjnym produktem
 
 _Aplikacja i usługa gotowania oraz dostarczania posiłków zgodnie z indywidualnymi planami dietetycznymi wygenerowanymi przy pomocy algorytmu sztucznej inteligencji, dostępne w ramach miesięcznego abonamentu z opcją jednego lub dwóch posiłków dziennie._
