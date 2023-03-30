@@ -1,5 +1,7 @@
 # 📚 zadanie na PICK
 
+👀 --> https://foodio-pick.netlify.app/
+
 <h1 align="center">
    <img src="https://ik.imagekit.io/lorinnio/FOODio.png?updatedAt=1678815805612">
 </h1>
